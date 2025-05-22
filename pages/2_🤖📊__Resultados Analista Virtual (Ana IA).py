@@ -116,7 +116,7 @@ else:
 
 if media_geral_final <= 2:
     mensagem = "Proposta de Projeto **reprovada**"
-elif 2 < media_geral_final <= 4:
+elif 2 < media_geral_final <= 3.9:
     mensagem = "Proposta de projeto precisa de uma **revisão**"
 else:
     mensagem = "Proposta de projeto **aprovada**"
