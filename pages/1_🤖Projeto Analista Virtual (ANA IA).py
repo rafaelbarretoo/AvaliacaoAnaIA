@@ -73,7 +73,7 @@ st.markdown(
 #st.title("🎯 Avaliação Projeto Pseudonimização")
 #st.subheader("SUPEX - Gerência Jurídica - Raquel")
 
-nomes_usuarios = ["Nome","Aline Oliveira","André Diniz", "Guilherme Carrijo","Leonardo Briza", "Marcelo Gallo","Monica Vargas","Paulo Ravagnani"]
+nomes_usuarios = ["Aline Oliveira","André Diniz", "Guilherme Carrijo","Leonardo Briza", "Marcelo Gallo","Monica Vargas","Paulo Ravagnani"]
 avaliador = st.selectbox("Escolha o seu nome", nomes_usuarios)
 
 st.markdown(
