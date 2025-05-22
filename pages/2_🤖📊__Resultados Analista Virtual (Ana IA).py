@@ -26,7 +26,7 @@ st.markdown(f"""
 
 if media_geral_final <= 2:
     mensagem = st.warning("Proposta de Projeto **reprovada**")
-elif 2 < media_geral_final <= 4:
+elif 2 < media_geral_final <= 3.9:
     mensagem ="Proposta de projeto precisa de uma **revisão**"
 else:
     mensagem = st.success("Proposta de projeto **aprovada**")
